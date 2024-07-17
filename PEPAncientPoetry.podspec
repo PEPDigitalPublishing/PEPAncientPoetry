@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
                         'Core/BaseViewController/*.{h,m}',
                         'Core/AncientPoetry/录音模块/lib/*.{h,m}'
                         
-    s.ios.library     = 'Core/AncientPoetry/录音模块/lib/libmp3lame.a'
+    s.library     = 'Core/AncientPoetry/录音模块/lib/libmp3lame.a'
     
     s.resource_bundles= {
         'resource_module' => ['Core/resource_module/*.{xib,xcassets,storyboard}']
