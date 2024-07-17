@@ -37,8 +37,6 @@ Pod::Spec.new do |s|
                         'Core/YSTUtils/*.{h,m}',
                         'Core/BaseViewController/*.{h,m}',
                         'Core/AncientPoetry/录音模块/lib/*.{h,m}'
-                        
-    s.library     = 'Core/AncientPoetry/录音模块/lib/libmp3lame.a'
     
     s.resource_bundles= {
         'resource_module' => ['Core/resource_module/*.{xib,xcassets,storyboard}']
